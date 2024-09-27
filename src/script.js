@@ -2,9 +2,9 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import Stats from 'three/addons/libs/stats.module.js'
 import GUI from 'lil-gui'
+import { Terrain } from './terrain'
 
 const gui = new GUI
-
 const stats = new Stats()
 document.body.appendChild(stats.dom)
 
@@ -21,6 +21,9 @@ const camera = new THREE.PerspectiveCamera(
   1000
 )
 const controls = new OrbitControls( camera, renderer.domElement )
+
+const terrain = new Terrain(10, 10)
+scene.add(terrain)
 
 const sun = new THREE.DirectionalLight()
 sun.position.set(1, 2, 3)
