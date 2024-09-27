@@ -1,5 +1,9 @@
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import Stats from 'three/addons/libs/stats.module.js'
+
+const stats = new Stats()
+document.body.appendChild(stats.dom)
 
 const renderer = new THREE.WebGLRenderer()
 renderer.setSize(window.innerWidth, window.innerHeight)
@@ -33,5 +37,6 @@ controls.update()
 
 function animate() {
   controls.update()
+  stats.update()
   renderer.render( scene, camera )
 }
