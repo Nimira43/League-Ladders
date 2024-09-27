@@ -32,11 +32,6 @@ const ambient = new THREE.AmbientLight()
 ambient.intensity = 0.5
 scene.add(ambient)
 
-const geometry = new THREE.BoxGeometry(1, 1, 1)
-const material = new THREE.MeshStandardMaterial({ color: 0xff4500 })
-const cube = new THREE.Mesh(geometry, material)
-
-scene.add(cube)
 camera.position.z = 5
 controls.update()
 
@@ -52,8 +47,10 @@ window.addEventListener('resize', () => {
   renderer.setSize(window.innerHeight, window.innerWidth)
 })
 
-const folder = gui.addFolder('Cube')
-folder.add(cube.position, 'x', -2, 2, 0.1).name('X Position')
-folder.add(cube.position, 'y', -2, 2, 0.1).name('Y Position')
-folder.add(cube.position, 'z', -2, 2, 0.1).name('Z Position')
-folder.addColor(cube.material, 'color').name('Colour')
+const terrainFolder = gui.addFolder('Terrain')
+terrainFolder.add(terrain, 'width', 1, 20, 1).name('Width')
+terrainFolder.add(terrain, 'height', 1, 20, 1).name('Height')
+terrainFolder.addColor(terrain.material, 'color').name('Colour')
+terrainFolder.onChange(() => {
+  terrain.createGeometry()
+})
