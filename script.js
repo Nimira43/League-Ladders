@@ -1,6 +1,9 @@
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import Stats from 'three/addons/libs/stats.module.js'
+import GUI from 'lil-gui'
+
+const gui = new GUI
 
 const stats = new Stats()
 document.body.appendChild(stats.dom)
@@ -26,7 +29,6 @@ const ambient = new THREE.AmbientLight()
 ambient.intensity = 0.5
 scene.add(ambient)
 
-
 const geometry = new THREE.BoxGeometry(1, 1, 1)
 const material = new THREE.MeshStandardMaterial({ color: 0xff4500 })
 const cube = new THREE.Mesh(geometry, material)
@@ -40,3 +42,15 @@ function animate() {
   stats.update()
   renderer.render( scene, camera )
 }
+
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / innerHeight
+  camera.updateProjectionMatrix()
+  renderer.setSize(window.innerHeight, window.innerWidth)
+})
+
+const folder = gui.addFolder('Cube')
+folder.add(cube.position, 'x', -2, 2, 0.1).name('X Position')
+folder.add(cube.position, 'y', -2, 2, 0.1).name('Y Position')
+folder.add(cube.position, 'z', -2, 2, 0.1).name('Z Position')
+folder.addColor(cube.material, 'color').name('Colour')
