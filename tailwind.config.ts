@@ -1,4 +1,6 @@
 import type { Config } from 'tailwindcss'
+import { nextui } from '@nextui-org/react'
+
 
 export default {
   content: [
