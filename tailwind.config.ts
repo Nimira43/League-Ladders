@@ -23,5 +23,6 @@ export default {
       },
     },
   },
-  plugins: [],
+  darkMode: 'class',
+  plugins: [nextui()],
 } satisfies Config
