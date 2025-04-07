@@ -1,5 +1,9 @@
+import { Button } from '@nextui-org/react'
+
 export default function Home() {
   return (
-    <h1>Nomarch</h1>
+    <div>
+      <Button>Test Button</Button>
+    </div>
   )
 }
