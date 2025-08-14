@@ -5,13 +5,13 @@ Scottish Profesional Football League
 
 Version 3
 ---------
-English Tier 7 clubs 
-Scottish Tier 5 clubs
+English Tier 7 leagues
+Scottish Tier 5 leagues
 Promotion, playoffs. relegation positions in table marked up
 
 Version 4A
 ----------
-Team colours.
+Team colours
 Local storage
 
 Version 4B
