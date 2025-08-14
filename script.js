@@ -23,6 +23,6 @@ for (const [division, teams] of Object.entries(divisions)) {
   ul.addEventListener('dragover', e => {
     e.preventDefault()
     const dragging = document.querySelector('.dragging')
-
+    const afterElement = [...ul.querySelectorAll('li')].find(el => {})
   })
 }
