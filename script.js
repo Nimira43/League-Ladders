@@ -19,4 +19,10 @@ for (const [division, teams] of Object.entries(divisions)) {
     li.addEventListener('dragend', () => li.classList.remove('dragging'))
     ul.appendChild(li)
   })
+
+  ul.addEventListener('dragover', e => {
+    e.preventDefault()
+    const dragging = document.querySelector('.dragging')
+
+  })
 }
