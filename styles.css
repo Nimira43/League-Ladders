@@ -38,6 +38,7 @@ body {
   color:  var(--dark);
   text-transform: uppercase;
 }
+
 .ladder {
   list-style: none;
   padding: 0;
