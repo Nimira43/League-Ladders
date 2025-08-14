@@ -27,5 +27,11 @@ for (const [division, teams] of Object.entries(divisions)) {
       const box = el.getBoundingClientRect()
       return e.clientY < box.top + box.height / 2
     })
+
+    if (afterElement) {
+      ul.insertBefore(dragging, afterElement)
+    } else {
+      ul.appendChild(dragging)
+    }
   })
 }
