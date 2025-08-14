@@ -32,3 +32,10 @@ body {
   gap: 2rem;;
 }
 
+.division {
+  background: var(--grey-1);
+  padding: 1rem;
+  border-radius: 3px;
+  border: 1px solid var(--grey-4);
+}
+
