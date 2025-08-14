@@ -1,7 +1,7 @@
 Version 2
 ---------
 National League North and South
-Scottish Profesional Football League
+Scottish Professional Football League
 
 Version 3
 ---------
@@ -22,3 +22,4 @@ No local storage version
 Version 5
 ---------
 Turn Version 4A into a React project.
+Maybe setup a Neon database? 
