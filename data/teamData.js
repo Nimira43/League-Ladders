@@ -12,6 +12,6 @@ export const divisions = {
     ['Accrington Stanley', 'Barnet', 'Barrow', 'Bristol Rovers', 'Bromley', 'Cambridge United','Cheltenham Town', 'Chesterfield', 'Colchester United', 'Crawley Town', 'Crewe Alexandra', 'Fleetwood Town', 'Gillingham', 'Grimsby Town', 'Harrogate Town', 'Milton Keynes Dons', 'Newport County', 'Notts County', 'Oldham Athletic', 'Salford City', 'Shrewsbury Town', 'Swindon Town', 'Tranmere Rovers', 'Walsall'
   ],
   'National League': 
-    ['Aldershot Town', 'Altrincham', 'Boreham Wood', 'Boston United', 'Brackley Town', 'Braintree Town','Carlisle United', 'Eastleigh', 'FC Halifax Town', 'Forest Green Rovers', 'Gateshead', 'Hartlepool United', 'Morecambe', 'Rochdale', 'Scunthorpe United', 'Solihull Moors', 'Newport County', 'Notts County', 'Oldham Athletic', 'Salford City', 'Shrewsbury Town', 'Swindon Town', 'Tranmere Rovers', 'Walsall'
+    ['Aldershot Town', 'Altrincham', 'Boreham Wood', 'Boston United', 'Brackley Town', 'Braintree Town','Carlisle United', 'Eastleigh', 'FC Halifax Town', 'Forest Green Rovers', 'Gateshead', 'Hartlepool United', 'Morecambe', 'Rochdale', 'Scunthorpe United', 'Solihull Moors', 'Southend United', 'Sutton United', 'Tamworth', 'Truro City', 'Wealdstone', 'Woking', 'Yeovil Town', 'York City'
   ]
 }
