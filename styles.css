@@ -15,6 +15,13 @@
   --grey-4: #eee;
 }
 
+body {
+  background-color: var(--dark);
+  color: var(--main);
+  padding: 2rem;
+}
+
 .logo {
   font-family: 'Fjalla One', sans-serif;
 }
+
