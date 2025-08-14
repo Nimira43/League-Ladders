@@ -1,0 +1,20 @@
+Version 2
+---------
+National League North and South
+Scottish Profesional Football League
+
+Version 3
+---------
+English Tier 7 clubs 
+Scottish Tier 5 clubs
+Promotion, playoffs. relegation positions in table marked up
+
+Version 4A
+----------
+Team colours.
+Local storage
+
+Version 4B
+----------
+Team colours
+No local storage version
