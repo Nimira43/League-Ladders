@@ -16,5 +16,7 @@ for (const [division, teams] of Object.entries(divisions)) {
       e.dataTransfer.effectAllowed = 'move'
       li.classList.add('dragging')
     })
+    li.addEventListener('dragend', () => li.classList.remove('dragging'))
+    ul.appendChild(li)
   })
 }
