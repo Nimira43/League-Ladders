@@ -18,3 +18,7 @@ Version 4B
 ----------
 Team colours
 No local storage version
+
+Version 5
+---------
+Turn Version 4A into a React project.
