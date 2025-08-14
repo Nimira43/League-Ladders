@@ -1,6 +1,6 @@
 export const divisions = {
   'Premier League': 
-    ['Arsenal', 'Aston Villa', 'Bournemouth', 'Brentford', 'Brighton & Hove Albion', 'Burnley', 'Chelsea', 'Ipswich Town', 'Leicester City', 'Middlesbrough', 'Millwall', 'Norwich City', 'Oxford United', 'Portsmouth', 'Preston North End', 'Queens Park Rangers', 'Sheffield United', 'Sheffield Wednesday', 'Southampton', 'Stoke City'
+    ['Arsenal', 'Aston Villa', 'Bournemouth', 'Brentford', 'Brighton & Hove Albion', 'Burnley', 'Chelsea', 'Crystal Palace', 'Everton', 'Fulham', 'Leeds United', 'Liverpool', 'Manchester City', 'Manchester United', 'Newcastle United', 'Nottingham Forest', 'Sheffield United', 'Sheffield Wednesday', 'Southampton', 'Stoke City'
   ],
   'Championship': 
     ['Birmingham City', 'Blackburn Rovers', 'Bristol City', 'Charlton Athletic', 'Coventry City', 'Derby County', 'Hull City', 'Ipswich Town', 'Leicester City', 'Middlesbrough', 'Millwall', 'Norwich City', 'Oxford United', 'Portsmouth', 'Preston North End', 'Queens Park Rangers', 'Sheffield United', 'Sheffield Wednesday', 'Southampton', 'Stoke City', 'Swansea City', 'Watford', 'West Bromwich Albion', 'Wrexham'
