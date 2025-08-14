@@ -6,4 +6,15 @@ for (const [division, teams] of Object.entries(divisions)) {
   `)?.querySelector('ul')
     
   if (!ul) continue
+
+  teams.forEach(team => {
+    const li = document.createElement('li')
+    li.textContent = team
+    li.draggable = true
+    li.addEventListener('dragstart', e => {
+      e.dataTransfer.setData('text/plain', team)
+      e.dataTransfer.effectAllowed = 'move'
+      li.classList.add('dragging')
+    })
+  })
 }
