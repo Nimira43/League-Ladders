@@ -36,7 +36,7 @@ export const divisions = {
 'Annan Athletic', 'Clyde', 'Dumbarton', 'Edinburgh City', 'East Kilbride', 'Elgin City', 'Forfar Athletic', 'Stirling Albion', 'Stranraer', 'The Spartans' 
 ],
 'Highland League': [
-'Banks O\'Dee', 'Brechin City', 'Brora Rangers', 'Buckie Thistle','Clachnacuddin', 'Deveronvale', 'Formartine United', 'Forres Mechanics', 'Fraserburgh', 'Huntly', 'Inverurie Loco Works', 'Keith', 'Lossiemouth', 'Nairn County', 'Rothes', 'Strathspey Thistle, 'Turriff United', 'Wick Academy'
+'Banks O\'Dee', 'Brechin City', 'Brora Rangers', 'Buckie Thistle','Clachnacuddin', 'Deveronvale', 'Formartine United', 'Forres Mechanics', 'Fraserburgh', 'Huntly', 'Inverurie Loco Works', 'Keith', 'Lossiemouth', 'Nairn County', 'Rothes', 'Strathspey Thistle', 'Turriff United', 'Wick Academy'
 ],
 'Lowland League': [
 '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', ''
