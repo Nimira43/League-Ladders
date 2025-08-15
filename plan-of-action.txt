@@ -1,12 +1,7 @@
-Version 2
----------
-National League North and South
-Scottish Professional Football League
 
 Version 3
 ---------
-English Tier 7 leagues
-Scottish Tier 5 leagues
+Lowland League
 Promotion, playoffs. relegation positions in table marked up
 
 Version 4A
