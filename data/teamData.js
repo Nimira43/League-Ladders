@@ -39,6 +39,6 @@ export const divisions = {
 'Banks O\'Dee', 'Brechin City', 'Brora Rangers', 'Buckie Thistle','Clachnacuddin', 'Deveronvale', 'Formartine United', 'Forres Mechanics', 'Fraserburgh', 'Huntly', 'Inverurie Loco Works', 'Keith', 'Lossiemouth', 'Nairn County', 'Rothes', 'Strathspey Thistle', 'Turriff United', 'Wick Academy'
 ],
 'Lowland League': [
-'', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', ''
+'Albion Rovers', 'Berwick Rangers', 'Bo\'ness United', 'Bonnyrigg Rose','Broxburn Athletic', 'Caledonian Braves', 'Celtic B', 'Civil Service Strollers', 'Clydebank', 'Cowdenbeath', 'Cumbernauld Colts', 'East Stirlingshire', 'Gala Fairydean Rovers', 'Gretna 2008', 'Heart of Midlothian B', 'Linlithgow Rose, 'Tranent, 'University of Stirling'
 ],
 }
