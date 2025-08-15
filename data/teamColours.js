@@ -21,3 +21,30 @@ const premierLeagueTeams = [
   { team: 'Wolverhampton Wanderers', main_colour: 'gold', support_colour: 'black' }
 ]
 
+const championshipTeams = [
+  { team: 'Birmingham City', main_colour: 'blue', support_colour: 'white' },
+  { team: 'Blackburn Rovers', main_colour: 'blue', support_colour: 'white' },
+  { team: 'Bristol City', main_colour: 'red', support_colour: 'white' },
+  { team: 'Cardiff City', main_colour: 'blue', support_colour: 'white' },
+  { team: 'Coventry City', main_colour: 'sky blue', support_colour: 'white' },
+  { team: 'Derby County', main_colour: 'white', support_colour: 'black' },
+  { team: 'Hull City', main_colour: 'amber', support_colour: 'black' },
+  { team: 'Ipswich Town', main_colour: 'blue', support_colour: 'white' },
+  { team: 'Leeds United', main_colour: 'white', support_colour: 'yellow' },
+  { team: 'Leicester City', main_colour: 'blue', support_colour: 'white' },
+  { team: 'Middlesbrough', main_colour: 'red', support_colour: 'white' },
+  { team: 'Millwall', main_colour: 'navy', support_colour: 'white' },
+  { team: 'Norwich City', main_colour: 'yellow', support_colour: 'green' },
+  { team: 'Plymouth Argyle', main_colour: 'green', support_colour: 'white' },
+  { team: 'Preston North End', main_colour: 'white', support_colour: 'navy' },
+  { team: 'Queens Park Rangers', main_colour: 'blue', support_colour: 'white' },
+  { team: 'Rotherham United', main_colour: 'red', support_colour: 'white' },
+  { team: 'Sheffield Wednesday', main_colour: 'blue', support_colour: 'white' },
+  { team: 'Southampton', main_colour: 'red', support_colour: 'white' },
+  { team: 'Stoke City', main_colour: 'red', support_colour: 'white' },
+  { team: 'Sunderland', main_colour: 'red', support_colour: 'white' },
+  { team: 'Swansea City', main_colour: 'white', support_colour: 'black' },
+  { team: 'Watford', main_colour: 'yellow', support_colour: 'black' },
+  { team: 'West Bromwich Albion', main_colour: 'navy', support_colour: 'white' }
+];
+
