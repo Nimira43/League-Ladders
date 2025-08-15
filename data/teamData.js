@@ -13,5 +13,27 @@ export const divisions = {
   ],
   'National League': 
     ['Aldershot Town', 'Altrincham', 'Boreham Wood', 'Boston United', 'Brackley Town', 'Braintree Town','Carlisle United', 'Eastleigh', 'FC Halifax Town', 'Forest Green Rovers', 'Gateshead', 'Hartlepool United', 'Morecambe', 'Rochdale', 'Scunthorpe United', 'Solihull Moors', 'Southend United', 'Sutton United', 'Tamworth', 'Truro City', 'Wealdstone', 'Woking', 'Yeovil Town', 'York City'
-  ]
+  ],
+National North': [
+  'AFC Flyde', ' AFC Telford United', 'Alfreton Town', 'Bedford Town', 'Buxton', 'Chester', 'Chorley', 'Curzon Ashton', 'Darlington', 'Hereford', 'Kidderminster Harriers', 'King\'s Lynn Town', 'Leamington', 'Macclesfield', 'Marine', 'Merthyr Town', 'Oxford City', 'Peterborough Sports', 'Radcliffe', 'Scarborough Athletic', 'Southport', 'South Shields', 'Spennymoor Town', 'Worksop Town' 
+],
+'National North': [
+  'AFC Totton', 'Bath City', 'Chelmsford City', 'Chesham United', 'Chippenham Town', 'Dagenham & Redbridge', 'Dorking Wanderers', 'Dover Athletic', 'Eastbourne Borough', 'Ebbsfleet United', 'Enfield Town', 'Farnborough', 'Hampton & Richmond Borough', 'Hemel Hempstead Town', 'Hornchurch', 'Horsham', 'Maidenhead United', 'Maidstone United', 'Salisbury', 'Slough Town', 'Tonbridge Angles', 'Torquay United', 'Weston-super-Mare', 'Worthing' 
+],
+'Non League': [
+  'Kettering Town', ' Bury Town', 'Worcester City', 'Stourbridge',  'Bishop\'s Storford', 'Banbury United', 'Gloucester City', 'Taunton Town', 'Berkhamsted', 'Evesham United', 'Weymouth', 'Basingstoke Town',  'FC United of Manchester', 'Hednesford ', 'Stockton Town', 'Rushall Olympic', 'Guiseley', 'Bamber Bridge', 'Cheshunt', 'Dulwich Hamlets', 'Burgess Hill Town', 'Cray Wanderers', 'Billericay', 'Carshalton Athletic' 
+],
+'Scottish Premiership': [
+'Aberdeen', 'Celtic', 'Dundee', 'Dundee United', 'Falkirk', 'Heart of Midlothian', 'Hibernian', 'Kilmarnock', 'Livingston', 'Motherwell', 'Rangers', 'St Mirren'
+],
+'Scottish Championship': [
+'Airdrieonians', 'Arbroath', 'Ayr United', 'Dunfermline Athletic', 'Greenock Morton', 'Patrick Thistle', 'Queen\'s Park', 'Raith Rovers', 'Ross County', 'St Johnstone'
+],
+'Scottish League One': [
+'Alloa Athletic', 'Cove Rangers', 'East Fife', 'Hamilton Academical', 'Inverness Caledonian Thistle', 'Kelty Hearts', 'Montrose', 'Peterhead', 'Queen of the South', 'Stenhousemuir'
+],
+'Scottish League Two': [
+'Annan Athletic', 'Clyde', 'Dumbarton', 'Edinburgh City', 'East Kilbride', 'Elgin City', 'Forfar Athletic', 'Stirling Albion', 'Stranraer', 'The Spartans' 
+],
+
 }
