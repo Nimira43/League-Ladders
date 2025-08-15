@@ -14,10 +14,10 @@ export const divisions = {
   'National League': 
     ['Aldershot Town', 'Altrincham', 'Boreham Wood', 'Boston United', 'Brackley Town', 'Braintree Town','Carlisle United', 'Eastleigh', 'FC Halifax Town', 'Forest Green Rovers', 'Gateshead', 'Hartlepool United', 'Morecambe', 'Rochdale', 'Scunthorpe United', 'Solihull Moors', 'Southend United', 'Sutton United', 'Tamworth', 'Truro City', 'Wealdstone', 'Woking', 'Yeovil Town', 'York City'
   ],
-National North': [
+'National North': [
   'AFC Flyde', ' AFC Telford United', 'Alfreton Town', 'Bedford Town', 'Buxton', 'Chester', 'Chorley', 'Curzon Ashton', 'Darlington', 'Hereford', 'Kidderminster Harriers', 'King\'s Lynn Town', 'Leamington', 'Macclesfield', 'Marine', 'Merthyr Town', 'Oxford City', 'Peterborough Sports', 'Radcliffe', 'Scarborough Athletic', 'Southport', 'South Shields', 'Spennymoor Town', 'Worksop Town' 
 ],
-'National North': [
+'National South': [
   'AFC Totton', 'Bath City', 'Chelmsford City', 'Chesham United', 'Chippenham Town', 'Dagenham & Redbridge', 'Dorking Wanderers', 'Dover Athletic', 'Eastbourne Borough', 'Ebbsfleet United', 'Enfield Town', 'Farnborough', 'Hampton & Richmond Borough', 'Hemel Hempstead Town', 'Hornchurch', 'Horsham', 'Maidenhead United', 'Maidstone United', 'Salisbury', 'Slough Town', 'Tonbridge Angels', 'Torquay United', 'Weston-super-Mare', 'Worthing' 
 ],
 'Non League': [
@@ -35,5 +35,10 @@ National North': [
 'Scottish League Two': [
 'Annan Athletic', 'Clyde', 'Dumbarton', 'Edinburgh City', 'East Kilbride', 'Elgin City', 'Forfar Athletic', 'Stirling Albion', 'Stranraer', 'The Spartans' 
 ],
-
+'Highland League': [
+'', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', ''
+],
+'Lowland League': [
+'', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', ''
+],
 }
