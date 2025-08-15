@@ -56,3 +56,20 @@ body {
   font-weight: 400;
 }
 
+.btn {
+  display: inline-block;
+  background-color: var(--light);
+  color: var(--dark);
+  padding: 0.25rem 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--grey-3);
+}
