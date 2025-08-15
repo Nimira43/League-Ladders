@@ -100,5 +100,5 @@ const leagueTwoTeams = [
   { team: 'Tranmere Rovers', main_colour: 'white', support_colour: 'blue' },
   { team: 'Walsall', main_colour: 'red', support_colour: 'white' },
   { team: 'Wycombe Wanderers', main_colour: 'dark blue', support_colour: 'light blue' }
-];
+]
 

@@ -18,7 +18,7 @@ export const divisions = {
   'AFC Flyde', ' AFC Telford United', 'Alfreton Town', 'Bedford Town', 'Buxton', 'Chester', 'Chorley', 'Curzon Ashton', 'Darlington', 'Hereford', 'Kidderminster Harriers', 'King\'s Lynn Town', 'Leamington', 'Macclesfield', 'Marine', 'Merthyr Town', 'Oxford City', 'Peterborough Sports', 'Radcliffe', 'Scarborough Athletic', 'Southport', 'South Shields', 'Spennymoor Town', 'Worksop Town' 
 ],
 'National South': [
-  'AFC Totton', 'Bath City', 'Chelmsford City', 'Chesham United', 'Chippenham Town', 'Dagenham & Redbridge', 'Dorking Wanderers', 'Dover Athletic', 'Eastbourne Borough', 'Ebbsfleet United', 'Enfield Town', 'Farnborough', 'Hampton & Richmond Borough', 'Hemel Hempstead Town', 'Hornchurch', 'Horsham', 'Maidenhead United', 'Maidstone United', 'Salisbury', 'Slough Town', 'Tonbridge Angels', 'Torquay United', 'Weston-super-Mare', 'Worthing' 
+  'AFC Totton', 'Bath City', 'Chelmsford City', 'Chesham United', 'Chippenham Town', 'Dagenham & Redbridge', 'Dorking Wanderers', 'Dover Athletic', 'Eastbourne Borough', 'Ebbsfleet United', 'Enfield Town', 'Farnborough', 'Hampton & Richmond', 'Hemel Hempstead Town', 'Hornchurch', 'Horsham', 'Maidenhead United', 'Maidstone United', 'Salisbury', 'Slough Town', 'Tonbridge Angels', 'Torquay United', 'Weston-super-Mare', 'Worthing' 
 ],
 'Non League': [
   'Kettering Town', ' Bury Town', 'Worcester City', 'Stourbridge',  'Bishop\'s Storford', 'Banbury United', 'Gloucester City', 'Taunton Town', 'Berkhamsted', 'Evesham United', 'Weymouth', 'Basingstoke Town',  'FC United of Manchester', 'Hednesford ', 'Stockton Town', 'Rushall Olympic', 'Guiseley', 'Bamber Bridge', 'Cheshunt', 'Dulwich Hamlets', 'Burgess Hill Town', 'Cray Wanderers', 'Billericay', 'Carshalton Athletic' 
@@ -30,7 +30,7 @@ export const divisions = {
 'Airdrieonians', 'Arbroath', 'Ayr United', 'Dunfermline Athletic', 'Greenock Morton', 'Partick Thistle', 'Queen\'s Park', 'Raith Rovers', 'Ross County', 'St Johnstone'
 ],
 'Scottish League One': [
-'Alloa Athletic', 'Cove Rangers', 'East Fife', 'Hamilton Academical', 'Inverness Caledonian Thistle', 'Kelty Hearts', 'Montrose', 'Peterhead', 'Queen of the South', 'Stenhousemuir'
+'Alloa Athletic', 'Cove Rangers', 'East Fife', 'Hamilton Academical', 'Inverness Caledonian T.', 'Kelty Hearts', 'Montrose', 'Peterhead', 'Queen of the South', 'Stenhousemuir'
 ],
 'Scottish League Two': [
 'Annan Athletic', 'Clyde', 'Dumbarton', 'Edinburgh City', 'East Kilbride', 'Elgin City', 'Forfar Athletic', 'Stirling Albion', 'Stranraer', 'The Spartans' 
@@ -39,6 +39,6 @@ export const divisions = {
 'Banks O\'Dee', 'Brechin City', 'Brora Rangers', 'Buckie Thistle','Clachnacuddin', 'Deveronvale', 'Formartine United', 'Forres Mechanics', 'Fraserburgh', 'Huntly', 'Inverurie Loco Works', 'Keith', 'Lossiemouth', 'Nairn County', 'Rothes', 'Strathspey Thistle', 'Turriff United', 'Wick Academy'
 ],
 'Lowland League': [
-'Albion Rovers', 'Berwick Rangers', 'Bo\'ness United', 'Bonnyrigg Rose','Broxburn Athletic', 'Caledonian Braves', 'Celtic B', 'Civil Service Strollers', 'Clydebank', 'Cowdenbeath', 'Cumbernauld Colts', 'East Stirlingshire', 'Gala Fairydean Rovers', 'Gretna 2008', 'Heart of Midlothian B', 'Linlithgow Rose, 'Tranent, 'University of Stirling'
+'Albion Rovers', 'Berwick Rangers', 'Bo\'ness United', 'Bonnyrigg Rose','Broxburn Athletic', 'Caledonian Braves', 'Celtic B', 'Civil Service Strollers', 'Clydebank', 'Cowdenbeath', 'Cumbernauld Colts', 'East Stirlingshire', 'Gala Fairydean Rovers', 'Gretna 2008', 'Heart of Midlothian B', 'Linlithgow Rose', 'Tranent', 'University of Stirling'
 ],
 }
