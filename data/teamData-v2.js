@@ -124,10 +124,33 @@ export let divisions = {
     { team: 'Woking', main_colour: 'red', support_colour: 'white' },
     { team: 'Yeovil Town', main_colour: 'green', support_colour: 'white' },
     { team: 'York City', main_colour: 'red', support_colour: 'blue' }
+  ],
+  'National North': [
+    { team: 'AFC Fylde', main_colour: 'red', support_colour: 'white' },
+    { team: 'Alfreton Town', main_colour: 'red', support_colour: 'white' },
+    { team: 'Banbury United', main_colour: 'red', support_colour: 'yellow' },
+    { team: 'Boston United', main_colour: 'amber', support_colour: 'black' },
+    { team: 'Brackley Town', main_colour: 'red', support_colour: 'white' },
+    { team: 'Buxton', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Chester', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Chorley', main_colour: 'black', support_colour: 'white' },
+    { team: 'Curzon Ashton', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Darlington', main_colour: 'black', support_colour: 'white' },
+    { team: 'Farsley Celtic', main_colour: 'green', support_colour: 'white' },
+    { team: 'Gloucester City', main_colour: 'yellow', support_colour: 'black' },
+    { team: 'Hereford', main_colour: 'white', support_colour: 'black' },
+    { team: 'King\’s Lynn Town', main_colour: 'blue', support_colour: 'yellow' },
+    { team: 'Peterborough Sports', main_colour: 'blue', support_colour: 'yellow' },
+    { team: 'Scarborough Athletic', main_colour: 'red', support_colour: 'white' },
+    { team: 'Scunthorpe United', main_colour: 'claret', support_colour: 'blue' },
+    { team: 'Southport', main_colour: 'yellow', support_colour: 'black' },
+    { team: 'Spennymoor Town', main_colour: 'black', support_colour: 'white' },
+    { team: 'South Shields', main_colour: 'claret', support_colour: 'blue' },
+    { team: 'Tamworth', main_colour: 'red', support_colour: 'black' },
+    { team: 'Warrington Town', main_colour: 'yellow', support_colour: 'blue' },
+    { team: 'Worksop Town', main_colour: 'yellow', support_colour: 'black' }
   ]
-  // 'National North': [
-  
-  // ],
+
   // 'National South': [
   
   // ],
