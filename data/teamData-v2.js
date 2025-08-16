@@ -196,15 +196,24 @@ export let divisions = {
     { team: 'Dunfermline Athletic', main_colour: 'black', support_colour: 'white' },
     { team: 'Greenock Morton', main_colour: 'blue', support_colour: 'white' },
     { team: 'Partick Thistle', main_colour: 'red', support_colour: 'yellow' },
-    { team: 'Queen’s Park', main_colour: 'black', support_colour: 'white' },
+    { team: 'Queen\’s Park', main_colour: 'black', support_colour: 'white' },
     { team: 'Raith Rovers', main_colour: 'navy', support_colour: 'white' },
     { team: 'Ross County', main_colour: 'navy', support_colour: 'white' },
     { team: 'St Johnstone', main_colour: 'blue', support_colour: 'white' }
-  ]
-
-  'Scottish League One': [
-  
   ],
+  'Scottish League One': [
+    { team: 'Alloa Athletic', main_colour: 'gold', support_colour: 'black' },
+    { team: 'Cove Rangers', main_colour: 'blue', support_colour: 'white' },
+    { team: 'East Fife', main_colour: 'black', support_colour: 'gold' },
+    { team: 'Hamilton Academical', main_colour: 'red', support_colour: 'white' },
+    { team: 'Inverness Caledonian Thistle', main_colour: 'blue', support_colour: 'red' },
+    { team: 'Kelty Hearts', main_colour: 'maroon', support_colour: 'white' },
+    { team: 'Montrose', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Peterhead', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Queen of the South', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Stenhousemuir', main_colour: 'maroon', support_colour: 'white' }
+  ],
+
   'Scottish League Two': [
   
   ],
