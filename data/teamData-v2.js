@@ -224,11 +224,28 @@ export let divisions = {
     { team: 'Stirling Albion', main_colour: 'red', support_colour: 'white' },
     { team: 'Stranraer', main_colour: 'blue', support_colour: 'white' },
     { team: 'The Spartans', main_colour: 'red', support_colour: 'white' }
-  ]
+  ],
+  'Highland League': [
+    { team: 'Banks o’ Dee', main_colour: 'red', support_colour: 'white' },
+    { team: 'Brechin City', main_colour: 'red', support_colour: 'white' },
+    { team: 'Brora Rangers', main_colour: 'maroon', support_colour: 'white' },
+    { team: 'Buckie Thistle', main_colour: 'green', support_colour: 'white' },
+    { team: 'Clachnacuddin', main_colour: 'white', support_colour: 'black' },
+    { team: 'Deveronvale', main_colour: 'red', support_colour: 'white' },
+    { team: 'Formartine United', main_colour: 'red', support_colour: 'white' },
+    { team: 'Forres Mechanics', main_colour: 'yellow', support_colour: 'black' },
+    { team: 'Fraserburgh', main_colour: 'black', support_colour: 'white' },
+    { team: 'Huntly', main_colour: 'black', support_colour: 'gold' },
+    { team: 'Inverurie Loco Works', main_colour: 'red', support_colour: 'white' },
+    { team: 'Keith', main_colour: 'maroon', support_colour: 'white' },
+    { team: 'Lossiemouth', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Nairn County', main_colour: 'yellow', support_colour: 'black' },
+    { team: 'Rothes', main_colour: 'amber', support_colour: 'black' },
+    { team: 'Strathspey Thistle', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Turriff United', main_colour: 'red', support_colour: 'white' },
+    { team: 'Wick Academy', main_colour: 'black', support_colour: 'white' }
+  ],
 
-  // 'Highland League': [
-  
-  // ],
   // 'Lowland League': [
   
   // ],
