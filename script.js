@@ -1,5 +1,8 @@
 import { divisions } from './data/teamData.js'
 import { divisionRules } from './data/rules.js'
+import { divisionsV2 } from './data/teamData-v2.js'
+
+console.log(divisionsV2)
 
 for (const [division, teams] of Object.entries(divisions)) {
   const ul = document.querySelector(`

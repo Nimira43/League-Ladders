@@ -1,4 +1,4 @@
-export let divisions = {
+export let divisionsV2 = {
   'Premier League': [
     { team: 'Arsenal', main_colour: 'red', support_colour: 'white' },
     { team: 'Aston Villa', main_colour: 'claret', support_colour: 'blue' },
