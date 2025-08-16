@@ -7,18 +7,40 @@ for (const [division, teams] of Object.entries(divisions)) {
     
   if (!ul) continue
 
-  teams.forEach(team => {
+  // teams.forEach(team => {
+  //   const li = document.createElement('li')
+  //   li.textContent = team
+  //   li.draggable = true
+    
+  //   li.addEventListener('dragstart', e => {
+  //     e.dataTransfer.setData('text/plain', team)
+  //     e.dataTransfer.effectAllowed = 'move'
+  //     li.classList.add('dragging')
+  //   })
+  //   li.addEventListener('dragend', () => li.classList.remove('dragging'))
+  //   ul.appendChild(li)
+  // })
+
+    teams.forEach((team, index) => {
     const li = document.createElement('li')
     li.textContent = team
     li.draggable = true
+    li.classList.add(`position-${index + 1}`)
+
+    if (index >= teams.length - 3) {
+      li.classList.add('relegated')
+    }
+
     li.addEventListener('dragstart', e => {
       e.dataTransfer.setData('text/plain', team)
       e.dataTransfer.effectAllowed = 'move'
       li.classList.add('dragging')
     })
+
     li.addEventListener('dragend', () => li.classList.remove('dragging'))
     ul.appendChild(li)
   })
+
 
   ul.addEventListener('dragover', e => {
     e.preventDefault()
@@ -32,6 +54,16 @@ for (const [division, teams] of Object.entries(divisions)) {
       ul.insertBefore(dragging, afterElement)
     } else {
       ul.appendChild(dragging)
-    }
+    }  
+  })
+
+  ul.addEventListener('drop', () => {
+    const items = [...ul.querySelectorAll('li')]
+    items.forEach((li, index) => {
+      li.classList.remove('relegated')
+      if (index >= items.length - 3) {
+        li.classList.add('relegated')
+      }
+    })
   })
 }

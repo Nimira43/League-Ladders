@@ -79,6 +79,13 @@ body {
   font-weight: 400;
 }
 
+.relegated {
+  background-color: var(--dark);
+  color: var(--light);
+  font-weight: bold;
+  border-right: 5px solid #8b0000;
+}
+
 .btn {
   display: inline-block;
   background-color: var(--light);
