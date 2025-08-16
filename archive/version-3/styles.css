@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --dark: #111;
+  --light: #fefefe;
+  --grey-1: #333;
+  --grey-2: #999;
+  --grey-3: #ccc;
+  --grey-4: #eee;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 1rem;
+}
+
+.logo {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.ladder-container {
+  display: grid;
+  grid-template-areas:
+    "premier championship league-one league-two"
+    "national-league national-north national-south ."
+    "scottish-premiership scottish-championship scottish-league-one scottish-league-two"
+    "highland-league lowland-league . .";
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#premier-league { grid-area: premier; }
+#championship { grid-area: championship; }
+#league-one { grid-area: league-one; }
+#league-two { grid-area: league-two; }
+
+#national-league { grid-area: national-league; }
+#national-north { grid-area: national-north; }
+#national-south { grid-area: national-south; }
+
+#scottish-premiership { grid-area: scottish-premiership; }
+#scottish-championship { grid-area: scottish-championship; }
+#scottish-league-one { grid-area: scottish-league-one; }
+#scottish-league-two { grid-area: scottish-league-two; }
+
+#highland-league { grid-area: highland-league; }
+#lowland-league { grid-area: lowland-league; }
+
+
+.division {
+  background: var(--grey-2);
+  padding: 0.4rem;
+  border-radius: 3px;
+  border: 1px solid var(--grey-4);
+}
+
+.division h2 {
+  color:  var(--dark);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ladder {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ladder li {
+  background: var(--grey-1);
+  margin: 0.2rem 0;
+  padding: 0.2rem;
+  cursor: grab;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.promoted {
+  color: var(--light);
+  border-right: 5px solid darkgreen;
+}
+
+.playoffs {
+  color: var(--light);
+  border-right: 5px solid orangered;
+}
+
+.relegated {
+  color: var(--light);
+  border-right: 5px solid #8b0000;
+}
+
+
