@@ -73,9 +73,32 @@ export let divisions = {
     { team: 'Wigan Athletic', main_colour: 'blue', support_colour: 'white' },
     { team: 'Wycombe Wanderers', main_colour: 'dark blue', support_colour: 'light blue' }
   ],
-  // 'League Two': [
-  
-  // ],
+  'League Two': [
+    { team: 'Accrington Stanley', main_colour: 'red', support_colour: 'white' },
+    { team: 'AFC Wimbledon', main_colour: 'blue', support_colour: 'yellow' },
+    { team: 'Barrow', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Bradford City', main_colour: 'claret', support_colour: 'amber' },
+    { team: 'Colchester United', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Crawley Town', main_colour: 'red', support_colour: 'white' },
+    { team: 'Crewe Alexandra', main_colour: 'red', support_colour: 'white' },
+    { team: 'Doncaster Rovers', main_colour: 'red', support_colour: 'white' },
+    { team: 'Forest Green Rovers', main_colour: 'lime green', support_colour: 'black' },
+    { team: 'Gillingham', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Grimsby Town', main_colour: 'black', support_colour: 'white' },
+    { team: 'Harrogate Town', main_colour: 'yellow', support_colour: 'black' },
+    { team: 'Mansfield Town', main_colour: 'amber', support_colour: 'blue' },
+    { team: 'Milton Keynes Dons', main_colour: 'white', support_colour: 'gold' },
+    { team: 'Morecambe', main_colour: 'red', support_colour: 'white' },
+    { team: 'Newport County', main_colour: 'amber', support_colour: 'black' },
+    { team: 'Notts County', main_colour: 'black', support_colour: 'white' },
+    { team: 'Salford City', main_colour: 'red', support_colour: 'white' },
+    { team: 'Stockport County', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Sutton United', main_colour: 'amber', support_colour: 'brown' },
+    { team: 'Swindon Town', main_colour: 'red', support_colour: 'white' },
+    { team: 'Tranmere Rovers', main_colour: 'white', support_colour: 'blue' },
+    { team: 'Walsall', main_colour: 'red', support_colour: 'white' },
+    { team: 'Wycombe Wanderers', main_colour: 'dark blue', support_colour: 'light blue' }
+  ],
   // 'National League': [
   
   // ],
