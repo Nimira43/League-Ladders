@@ -47,9 +47,32 @@ export let divisions = {
     { team: 'Watford', main_colour: 'yellow', support_colour: 'black' },
     { team: 'West Bromwich Albion', main_colour: 'navy', support_colour: 'white' }
   ],
-  // 'League One': [
-  
-  // ],
+  'League One': [
+    { team: 'Barnsley', main_colour: 'red', support_colour: 'white' },
+    { team: 'Blackpool', main_colour: 'orange', support_colour: 'white' },
+    { team: 'Bolton Wanderers', main_colour: 'white', support_colour: 'navy' },
+    { team: 'Bristol Rovers', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Burton Albion', main_colour: 'yellow', support_colour: 'black' },
+    { team: 'Cambridge United', main_colour: 'amber', support_colour: 'black' },
+    { team: 'Carlisle United', main_colour: 'blue', support_colour: 'red' },
+    { team: 'Charlton Athletic', main_colour: 'red', support_colour: 'white' },
+    { team: 'Cheltenham Town', main_colour: 'red', support_colour: 'white' },
+    { team: 'Derby County', main_colour: 'white', support_colour: 'black' },
+    { team: 'Exeter City', main_colour: 'red', support_colour: 'white' },
+    { team: 'Fleetwood Town', main_colour: 'red', support_colour: 'white' },
+    { team: 'Leyton Orient', main_colour: 'red', support_colour: 'white' },
+    { team: 'Lincoln City', main_colour: 'red', support_colour: 'white' },
+    { team: 'Northampton Town', main_colour: 'claret', support_colour: 'white' },
+    { team: 'Oxford United', main_colour: 'yellow', support_colour: 'blue' },
+    { team: 'Peterborough United', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Port Vale', main_colour: 'white', support_colour: 'black' },
+    { team: 'Portsmouth', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Reading', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Shrewsbury Town', main_colour: 'blue', support_colour: 'amber' },
+    { team: 'Stevenage', main_colour: 'red', support_colour: 'white' },
+    { team: 'Wigan Athletic', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Wycombe Wanderers', main_colour: 'dark blue', support_colour: 'light blue' }
+  ],
   // 'League Two': [
   
   // ],
