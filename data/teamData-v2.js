@@ -149,11 +149,33 @@ export let divisions = {
     { team: 'Tamworth', main_colour: 'red', support_colour: 'black' },
     { team: 'Warrington Town', main_colour: 'yellow', support_colour: 'blue' },
     { team: 'Worksop Town', main_colour: 'yellow', support_colour: 'black' }
-  ]
+  ],
+  'National South': [
+    { team: 'AFC Totton', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Bath City', main_colour: 'black', support_colour: 'white' },
+    { team: 'Chelmsford City', main_colour: 'claret', support_colour: 'white' },
+    { team: 'Chesham United', main_colour: 'maroon', support_colour: 'white' },
+    { team: 'Chippenham Town', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Dorking Wanderers', main_colour: 'red', support_colour: 'white' },
+    { team: 'Dover Athletic', main_colour: 'white', support_colour: 'black' },
+    { team: 'Eastbourne Borough', main_colour: 'red', support_colour: 'black' },
+    { team: 'Ebbsfleet United', main_colour: 'red', support_colour: 'white' },
+    { team: 'Enfield Town', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Farnborough', main_colour: 'yellow', support_colour: 'blue' },
+    { team: 'Hampton & Richmond Borough', main_colour: 'red', support_colour: 'blue' },
+    { team: 'Hemel Hempstead Town', main_colour: 'red', support_colour: 'white' },
+    { team: 'Hornchurch', main_colour: 'red', support_colour: 'white' },
+    { team: 'Horsham', main_colour: 'green', support_colour: 'yellow' },
+    { team: 'Maidenhead United', main_colour: 'black', support_colour: 'white' },
+    { team: 'Maidstone United', main_colour: 'amber', support_colour: 'black' },
+    { team: 'Salisbury', main_colour: 'white', support_colour: 'black' },
+    { team: 'Slough Town', main_colour: 'amber', support_colour: 'blue' },
+    { team: 'Tonbridge Angels', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Torquay United', main_colour: 'yellow', support_colour: 'blue' },
+    { team: 'Weston-super-Mare', main_colour: 'white', support_colour: 'black' },
+    { team: 'Worthing', main_colour: 'red', support_colour: 'white' }
+  ],
 
-  // 'National South': [
-  
-  // ],
   // 'Scottish Premiership': [
   
   // ],
