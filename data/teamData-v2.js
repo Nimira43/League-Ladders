@@ -175,7 +175,6 @@ export let divisions = {
     { team: 'Weston-super-Mare', main_colour: 'white', support_colour: 'black' },
     { team: 'Worthing', main_colour: 'red', support_colour: 'white' }
   ],
-
   'Scottish Premiership': [
     { team: 'Aberdeen', main_colour: 'red', support_colour: 'white' },
     { team: 'Celtic', main_colour: 'green', support_colour: 'white' },
@@ -189,11 +188,20 @@ export let divisions = {
     { team: 'Rangers', main_colour: 'blue', support_colour: 'white' },
     { team: 'Ross County', main_colour: 'navy', support_colour: 'white' },
     { team: 'St Mirren', main_colour: 'black', support_colour: 'white' }
+  ],
+  'Scottish Championship': [
+    { team: 'Airdrieonians', main_colour: 'white', support_colour: 'red' },
+    { team: 'Arbroath', main_colour: 'maroon', support_colour: 'white' },
+    { team: 'Ayr United', main_colour: 'white', support_colour: 'black' },
+    { team: 'Dunfermline Athletic', main_colour: 'black', support_colour: 'white' },
+    { team: 'Greenock Morton', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Partick Thistle', main_colour: 'red', support_colour: 'yellow' },
+    { team: 'Queen’s Park', main_colour: 'black', support_colour: 'white' },
+    { team: 'Raith Rovers', main_colour: 'navy', support_colour: 'white' },
+    { team: 'Ross County', main_colour: 'navy', support_colour: 'white' },
+    { team: 'St Johnstone', main_colour: 'blue', support_colour: 'white' }
   ]
 
-  'Scottish Championship': [
-  
-  ],
   'Scottish League One': [
   
   ],
