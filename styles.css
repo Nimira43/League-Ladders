@@ -23,9 +23,32 @@ body {
 
 .ladder-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-areas:
+    "premier championship league-one league-two"
+    "national-league national-north national-south ."
+    "scottish-premiership scottish-championship scottish-league-one scottish-league-two"
+    "highland-league lowland-league . .";
   gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
 }
+
+#premier-league { grid-area: premier; }
+#championship { grid-area: championship; }
+#league-one { grid-area: league-one; }
+#league-two { grid-area: league-two; }
+
+#national-league { grid-area: national-league; }
+#national-north { grid-area: national-north; }
+#national-south { grid-area: national-south; }
+
+#scottish-premiership { grid-area: scottish-premiership; }
+#scottish-championship { grid-area: scottish-championship; }
+#scottish-league-one { grid-area: scottish-league-one; }
+#scottish-league-two { grid-area: scottish-league-two; }
+
+#highland-league { grid-area: highland-league; }
+#lowland-league { grid-area: lowland-league; }
+
 
 .division {
   background: var(--grey-2);
