@@ -81,7 +81,7 @@ body {
 
 .promoted {
   color: var(--light);
-  border-right: 5px solid darkgreen;
+  border-right: 5px solid blue;
 }
 
 .playoffs {
