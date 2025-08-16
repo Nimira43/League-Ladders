@@ -226,7 +226,7 @@ export let divisions = {
     { team: 'The Spartans', main_colour: 'red', support_colour: 'white' }
   ],
   'Highland League': [
-    { team: 'Banks o’ Dee', main_colour: 'red', support_colour: 'white' },
+    { team: 'Banks o\’ Dee', main_colour: 'red', support_colour: 'white' },
     { team: 'Brechin City', main_colour: 'red', support_colour: 'white' },
     { team: 'Brora Rangers', main_colour: 'maroon', support_colour: 'white' },
     { team: 'Buckie Thistle', main_colour: 'green', support_colour: 'white' },
@@ -245,8 +245,25 @@ export let divisions = {
     { team: 'Turriff United', main_colour: 'red', support_colour: 'white' },
     { team: 'Wick Academy', main_colour: 'black', support_colour: 'white' }
   ],
+  'Lowland League': [
+    { team: 'Albion Rovers', main_colour: 'yellow', support_colour: 'red' },
+    { team: 'Berwick Rangers', main_colour: 'black', support_colour: 'yellow' },
+    { team: 'Bo\’ness United', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Broxburn Athletic', main_colour: 'white', support_colour: 'black' },
+    { team: 'Caledonian Braves', main_colour: 'red', support_colour: 'black' },
+    { team: 'Celtic B', main_colour: 'green', support_colour: 'white' },
+    { team: 'Civil Service Strollers', main_colour: 'white', support_colour: 'black' },
+    { team: 'Cowdenbeath', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Cumbernauld Colts', main_colour: 'yellow', support_colour: 'blue' },
+    { team: 'East Kilbride', main_colour: 'navy', support_colour: 'yellow' },
+    { team: 'East Stirlingshire', main_colour: 'black', support_colour: 'white' },
+    { team: 'Gala Fairydean Rovers', main_colour: 'red', support_colour: 'black' },
+    { team: 'Gretna 2008', main_colour: 'black', support_colour: 'white' },
+    { team: 'Heart of Midlothian B', main_colour: 'maroon', support_colour: 'white' },
+    { team: 'Linlithgow Rose', main_colour: 'maroon', support_colour: 'white' },
+    { team: 'The Spartans', main_colour: 'red', support_colour: 'white' },
+    { team: 'Tranent', main_colour: 'red', support_colour: 'black' },
+    { team: 'University of Stirling', main_colour: 'green', support_colour: 'white' }
+  ]
 
-  // 'Lowland League': [
-  
-  // ],
 }
