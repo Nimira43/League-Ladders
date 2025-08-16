@@ -79,12 +79,28 @@ body {
   font-weight: 400;
 }
 
-.relegated {
+/* .relegated {
   background-color: var(--dark);
   color: var(--light);
   font-weight: bold;
   border-right: 5px solid #8b0000;
+} */
+
+.promoted {
+  background-color: darkgreen;
+  color: var(--light);
 }
+
+.playoffs {
+  background-color: orangered;
+  color: var(--light);
+}
+
+.relegated {
+  background-color: darkred;
+  color: var(--light);
+}
+
 
 .btn {
   display: inline-block;
