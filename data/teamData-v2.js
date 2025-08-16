@@ -213,10 +213,19 @@ export let divisions = {
     { team: 'Queen of the South', main_colour: 'blue', support_colour: 'white' },
     { team: 'Stenhousemuir', main_colour: 'maroon', support_colour: 'white' }
   ],
-
   'Scottish League Two': [
-  
-  ],
+    { team: 'Annan Athletic', main_colour: 'amber', support_colour: 'black' },
+    { team: 'Clyde', main_colour: 'white', support_colour: 'black' },
+    { team: 'Dumbarton', main_colour: 'yellow', support_colour: 'black' },
+    { team: 'East Kilbride', main_colour: 'blue', support_colour: 'yellow' },
+    { team: 'Edinburgh City', main_colour: 'white', support_colour: 'black' },
+    { team: 'Elgin City', main_colour: 'black', support_colour: 'white' },
+    { team: 'Forfar Athletic', main_colour: 'sky blue', support_colour: 'navy' },
+    { team: 'Stirling Albion', main_colour: 'red', support_colour: 'white' },
+    { team: 'Stranraer', main_colour: 'blue', support_colour: 'white' },
+    { team: 'The Spartans', main_colour: 'red', support_colour: 'white' }
+  ]
+
   // 'Highland League': [
   
   // ],
