@@ -176,18 +176,30 @@ export let divisions = {
     { team: 'Worthing', main_colour: 'red', support_colour: 'white' }
   ],
 
-  // 'Scottish Premiership': [
+  'Scottish Premiership': [
+    { team: 'Aberdeen', main_colour: 'red', support_colour: 'white' },
+    { team: 'Celtic', main_colour: 'green', support_colour: 'white' },
+    { team: 'Dundee', main_colour: 'navy', support_colour: 'white' },
+    { team: 'Dundee United', main_colour: 'tangerine', support_colour: 'black' },
+    { team: 'Heart of Midlothian', main_colour: 'maroon', support_colour: 'white' },
+    { team: 'Hibernian', main_colour: 'green', support_colour: 'white' },
+    { team: 'Kilmarnock', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Livingston', main_colour: 'gold', support_colour: 'black' },
+    { team: 'Motherwell', main_colour: 'amber', support_colour: 'claret' },
+    { team: 'Rangers', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Ross County', main_colour: 'navy', support_colour: 'white' },
+    { team: 'St Mirren', main_colour: 'black', support_colour: 'white' }
+  ]
+
+  'Scottish Championship': [
   
-  // ],
-  // 'Scottish Championship': [
+  ],
+  'Scottish League One': [
   
-  // ],
-  // 'Scottish League One': [
+  ],
+  'Scottish League Two': [
   
-  // ],
-  // 'Scottish League Two': [
-  
-  // ],
+  ],
   // 'Highland League': [
   
   // ],
