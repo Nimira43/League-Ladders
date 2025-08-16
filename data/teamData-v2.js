@@ -20,41 +20,42 @@ export let divisions = {
     { team: 'Tottenham Hotspur', main_colour: 'white', support_colour: 'navy' },
     { team: 'West Ham United', main_colour: 'claret', support_colour: 'blue' },
     { team: 'Wolverhampton Wanderers', main_colour: 'gold', support_colour: 'black' }
-  ],
-  'Championship': [
-  
-  ],
-  'League One': [
-  
-  ],
-  'League Two': [
-  
-  ],
-  'National League': [
-  
-  ],
-  'National North': [
-  
-  ],
-  'National South': [
-  
-  ],
-  'Scottish Premiership': [
-  
-  ],
-  'Scottish Championship': [
-  
-  ],
-  'Scottish League One': [
-  
-  ],
-  'Scottish League Two': [
-  
-  ],
-  'Highland League': [
-  
-  ],
-  'Lowland League': [
-  
-  ],
+  ]
 }
+  // 'Championship': [
+  
+  // ],
+  // 'League One': [
+  
+  // ],
+  // 'League Two': [
+  
+  // ],
+  // 'National League': [
+  
+  // ],
+  // 'National North': [
+  
+  // ],
+  // 'National South': [
+  
+  // ],
+  // 'Scottish Premiership': [
+  
+  // ],
+  // 'Scottish Championship': [
+  
+  // ],
+  // 'Scottish League One': [
+  
+  // ],
+  // 'Scottish League Two': [
+  
+  // ],
+  // 'Highland League': [
+  
+  // ],
+  // 'Lowland League': [
+  
+  // ],
+// }
