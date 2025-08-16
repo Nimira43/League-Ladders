@@ -1,4 +1,5 @@
 import { divisions } from './data/teamData.js'
+import { divisionRules } from './data/rules.js'
 
 for (const [division, teams] of Object.entries(divisions)) {
   const ul = document.querySelector(`
@@ -6,31 +7,25 @@ for (const [division, teams] of Object.entries(divisions)) {
   `)?.querySelector('ul')
     
   if (!ul) continue
+  const rules = divisionRules[division] || {}
 
-  // teams.forEach(team => {
-  //   const li = document.createElement('li')
-  //   li.textContent = team
-  //   li.draggable = true
-    
-  //   li.addEventListener('dragstart', e => {
-  //     e.dataTransfer.setData('text/plain', team)
-  //     e.dataTransfer.effectAllowed = 'move'
-  //     li.classList.add('dragging')
-  //   })
-  //   li.addEventListener('dragend', () => li.classList.remove('dragging'))
-  //   ul.appendChild(li)
-  // })
-
-    teams.forEach((team, index) => {
+  teams.forEach((team, index) => {
     const li = document.createElement('li')
     li.textContent = team
     li.draggable = true
-    li.classList.add(`position-${index + 1}`)
 
-    if (index >= teams.length - 3) {
+    const position = index + 1
+
+    if (rules.promoted?.includes(position)) {
+      li.classList.add('promoted')
+    }
+    if (rules.playoffs?.includes(position)) {
+      li.classList.add('playoffs')
+    }
+    if (rules.relegated?.includes(position)) {
       li.classList.add('relegated')
     }
-
+    
     li.addEventListener('dragstart', e => {
       e.dataTransfer.setData('text/plain', team)
       e.dataTransfer.effectAllowed = 'move'
@@ -38,6 +33,7 @@ for (const [division, teams] of Object.entries(divisions)) {
     })
 
     li.addEventListener('dragend', () => li.classList.remove('dragging'))
+
     ul.appendChild(li)
   })
 
@@ -54,14 +50,22 @@ for (const [division, teams] of Object.entries(divisions)) {
       ul.insertBefore(dragging, afterElement)
     } else {
       ul.appendChild(dragging)
-    }  
+    }
   })
 
   ul.addEventListener('drop', () => {
     const items = [...ul.querySelectorAll('li')]
     items.forEach((li, index) => {
-      li.classList.remove('relegated')
-      if (index >= items.length - 3) {
+      const position = index + 1
+      li.classList.remove('promoted', 'playoffs', 'relegated')
+
+      if (rules.promoted?.includes(position)) {
+        li.classList.add('promoted')
+      }
+      if (rules.playoffs?.includes(position)) {
+        li.classList.add('playoffs')
+      }
+      if (rules.relegated?.includes(position)) {
         li.classList.add('relegated')
       }
     })

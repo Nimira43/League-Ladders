@@ -79,43 +79,19 @@ body {
   font-weight: 400;
 }
 
-/* .relegated {
-  background-color: var(--dark);
-  color: var(--light);
-  font-weight: bold;
-  border-right: 5px solid #8b0000;
-} */
-
 .promoted {
-  background-color: darkgreen;
   color: var(--light);
+  border-right: 5px solid darkgreen;
 }
 
 .playoffs {
-  background-color: orangered;
   color: var(--light);
+  border-right: 5px solid orangered;
 }
 
 .relegated {
-  background-color: darkred;
   color: var(--light);
+  border-right: 5px solid #8b0000;
 }
 
 
-.btn {
-  display: inline-block;
-  background-color: var(--light);
-  color: var(--dark);
-  padding: 0.25rem 0.5rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin-top: 1rem;
-  cursor: pointer;
-  transition: background-color 0.5s ease-in-out;
-}
-
-.btn:hover {
-  background-color: var(--grey-3);
-}
