@@ -99,9 +99,32 @@ export let divisions = {
     { team: 'Walsall', main_colour: 'red', support_colour: 'white' },
     { team: 'Wycombe Wanderers', main_colour: 'dark blue', support_colour: 'light blue' }
   ],
-  // 'National League': [
-  
-  // ],
+  'National League': [
+    { team: 'Aldershot Town', main_colour: 'red', support_colour: 'blue' },
+    { team: 'Altrincham', main_colour: 'red', support_colour: 'white' },
+    { team: 'Barnet', main_colour: 'amber', support_colour: 'black' },
+    { team: 'Boreham Wood', main_colour: 'white', support_colour: 'black' },
+    { team: 'Bromley', main_colour: 'white', support_colour: 'black' },
+    { team: 'Chesterfield', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Dagenham & Redbridge', main_colour: 'red', support_colour: 'blue' },
+    { team: 'Eastleigh', main_colour: 'blue', support_colour: 'white' },
+    { team: 'FC Halifax Town', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Gateshead', main_colour: 'white', support_colour: 'black' },
+    { team: 'Hartlepool United', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Kidderminster Harriers', main_colour: 'red', support_colour: 'white' },
+    { team: 'Maidenhead United', main_colour: 'black', support_colour: 'white' },
+    { team: 'Oldham Athletic', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Rochdale', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Solihull Moors', main_colour: 'yellow', support_colour: 'blue' },
+    { team: 'Southend United', main_colour: 'navy', support_colour: 'white' },
+    { team: 'Sutton United', main_colour: 'amber', support_colour: 'brown' },
+    { team: 'Tamworth', main_colour: 'red', support_colour: 'black' },
+    { team: 'Truro City', main_colour: 'white', support_colour: 'black' },
+    { team: 'Wealdstone', main_colour: 'blue', support_colour: 'white' },
+    { team: 'Woking', main_colour: 'red', support_colour: 'white' },
+    { team: 'Yeovil Town', main_colour: 'green', support_colour: 'white' },
+    { team: 'York City', main_colour: 'red', support_colour: 'blue' }
+  ]
   // 'National North': [
   
   // ],
