@@ -267,5 +267,4 @@ export let divisionsV2 = {
     { team: 'Tranent', main_colour: 'red', support_colour: 'black' },
     { team: 'University of Stirling', main_colour: 'green', support_colour: 'white' }
   ]
-
 }
