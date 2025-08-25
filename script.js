@@ -26,7 +26,8 @@ for (const [division, teams] of Object.entries(divisionsV2)) {
     li.draggable = true
     li.style.backgroundColor = getHex(main_colour)
     li.style.color = getHex(support_colour)
-
+    li.style.fontWeight = 'bold'
+    
     applyStatusClass(li, index + 1, rules)
 
     li.addEventListener('dragstart', e => {
