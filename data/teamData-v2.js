@@ -82,7 +82,7 @@ export let divisionsV2 = {
     { team: 'Crawley Town', main_colour: 'red', support_colour: 'white' },
     { team: 'Crewe Alexandra', main_colour: 'red', support_colour: 'white' },
     { team: 'Doncaster Rovers', main_colour: 'red', support_colour: 'white' },
-    { team: 'Forest Green Rovers', main_colour: 'lime green', support_colour: 'black' },
+    { team: 'Forest Green Rovers', main_colour: 'green', support_colour: 'black' },
     { team: 'Gillingham', main_colour: 'blue', support_colour: 'white' },
     { team: 'Grimsby Town', main_colour: 'black', support_colour: 'white' },
     { team: 'Harrogate Town', main_colour: 'yellow', support_colour: 'black' },
