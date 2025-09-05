@@ -71,7 +71,7 @@ export let divisionsV2 = {
     { team: 'Stevenage', main_colour: 'red', support_colour: 'white' },
     { team: 'Stockport County', main_colour: 'blue', support_colour: 'white' },
     { team: 'Wigan Athletic', main_colour: 'blue', support_colour: 'white' },
-    { team: 'Wycombe Wanderers', main_colour: 'dark blue', support_colour: 'light blue' }
+    { team: 'Wycombe Wanderers', main_colour: 'dark blue', support_colour: 'sky blue' }
   ],
   'League Two': [
     { team: 'Accrington Stanley', main_colour: 'red', support_colour: 'white' },

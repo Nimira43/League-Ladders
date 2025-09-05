@@ -1,24 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-  --dark: #111;
-  --light: #fefefe;
-  --grey-1: #333;
-  --grey-2: #999;
-  --grey-3: #ccc;
-  --grey-4: #eee;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
-  background-color: var(--dark);
-  color: var(--light);
+  background-color: #000;
   padding: 1rem;
-}
-
-.logo {
-  font-family: 'Fjalla One', sans-serif;
 }
 
 .ladder-container {
@@ -49,18 +35,21 @@ body {
 #highland-league { grid-area: highland-league; }
 #lowland-league { grid-area: lowland-league; }
 
-
 .division {
-  background: var(--grey-2);
-  padding: 0.4rem;
+  background: #025454;
+  max-width: 300px;
+  padding: 2rem;
   border-radius: 3px;
-  border: 1px solid var(--grey-4);
 }
 
 .division h2 {
-  color:  var(--dark);
+  color:  #fbff00;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5rem;
   text-transform: uppercase;
+  text-shadow: 3px 3px 2px #000;
   text-align: center;
+  letter-spacing: 2px;;
 }
 
 .ladder {
@@ -79,19 +68,34 @@ body {
   font-weight: 400;
 }
 
-/* .promoted {
-  color: var(--light);
-  border-right: 5px solid blue;
+.zone-line {
+  height: 4px;
+  margin: 0.3rem 0;
+  background: linear-gradient(
+    90deg, 
+    #000, 
+    #fff, 
+    #000
+  );
+  background-size: 200% 100%;
+  animation: pulseGradient 3s linear infinite;
+  border: none;
 }
 
-.playoffs {
-  color: var(--light);
-  border-right: 5px solid orangered;
+@keyframes pulseGradient {
+  0% {
+    background-position: 0% 50%;
+    opacity: 0.6;
+  }
+  50% {
+    background-position: 100% 50%;
+    opacity: 1;
+  }
+  100% {
+    background-position: 0% 50%;
+    opacity: 0.6;
+  }
 }
 
-.relegated {
-  color: var(--light);
-  border-right: 5px solid #8b0000;
-} */
 
 
