@@ -6,12 +6,12 @@ const normaliseId = name => name.toLowerCase().replace(/ /g, '-')
 const normaliseColourKey = str => str?.toLowerCase().replace(/ /g, '_')
 const getHex = colour => colourMap[normaliseColourKey(colour)] || colour || '#999'
 
-const applyStatusClass = (li, position, rules) => {
-  li.classList.remove('promoted', 'playoffs', 'relegated')
-  if (rules.promoted?.includes(position)) li.classList.add('promoted')
-  if (rules.playoffs?.includes(position)) li.classList.add('playoffs')
-  if (rules.relegated?.includes(position)) li.classList.add('relegated')
-}
+// const applyStatusClass = (li, position, rules) => {
+//   li.classList.remove('promoted', 'playoffs', 'relegated')
+//   if (rules.promoted?.includes(position)) li.classList.add('promoted')
+//   if (rules.playoffs?.includes(position)) li.classList.add('playoffs')
+//   if (rules.relegated?.includes(position)) li.classList.add('relegated')
+// }
 
 for (const [division, teams] of Object.entries(divisionsV2)) {
   const ul = document.querySelector(`#${normaliseId(division)}`)?.querySelector('ul')
@@ -28,7 +28,7 @@ for (const [division, teams] of Object.entries(divisionsV2)) {
     li.style.color = getHex(support_colour)
     li.style.fontWeight = 'bold'
     
-    applyStatusClass(li, index + 1, rules)
+    // applyStatusClass(li, index + 1, rules)
 
     li.addEventListener('dragstart', e => {
       e.dataTransfer.setData('text/plain', team)
