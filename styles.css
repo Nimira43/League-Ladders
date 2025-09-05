@@ -79,7 +79,7 @@ body {
   font-weight: 400;
 }
 
-.promoted {
+/* .promoted {
   color: var(--light);
   border-right: 5px solid blue;
 }
@@ -92,6 +92,6 @@ body {
 .relegated {
   color: var(--light);
   border-right: 5px solid #8b0000;
-}
+} */
 
 
