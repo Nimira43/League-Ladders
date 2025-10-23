@@ -6,9 +6,16 @@ function TeamItem({ teamObj }) {
   const text = getHex(support_colour)
 
   return (
-    <div>
-      Team Item
-    </div>
+    <li
+      className='ladder-item'
+      style={{
+        backgroundColor: bg,
+        color: text,
+      }}
+      draggable
+    >
+      {team}
+    </li>
   )
 }
 
