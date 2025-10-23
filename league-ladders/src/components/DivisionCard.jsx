@@ -1,4 +1,10 @@
-function DivisionCard() {
+import Ladder from './Ladder' 
+
+function DivisionCard({ 
+  divisionName,
+  teams,
+  rules
+}) {
   return (
     <div>
       Division Card
