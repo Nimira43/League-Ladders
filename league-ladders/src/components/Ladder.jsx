@@ -27,4 +27,9 @@ function Ladder({
 
 export default Ladder
 
-function getZoneLabel() {}
+function getZoneLabel(division, index) {
+  const rules = rules || {}
+  if (rules.promoted?.includes(index)) return 'Promoted'
+  if (rules.playoffs?.includes(index)) return 'Playoffs'
+  if (rules.relegated?.includes(index)) return 'Relegated'
+}
