@@ -14,13 +14,17 @@ function Ladder({
 
         return (
           <div key={teamObj.team}>
-            <TeamItem teamObj={teamObj} />            
+            <TeamItem teamObj={teamObj} /> 
+            {isBreak && 
+              <ZoneLine label={zoneLabel} />
+            }           
           </div>
         )
       })}
-
     </ul>
   )
 }
 
 export default Ladder
+
+function getZoneLabel() {}
