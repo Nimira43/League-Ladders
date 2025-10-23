@@ -1,5 +1,6 @@
 import TeamItem from './TeamItem'
 import ZoneLine from './ZoneLine'
+import { getZoneLabel } from '../lib/utils'
 
 function Ladder({
   divisionName,
@@ -10,7 +11,7 @@ function Ladder({
     <ul className='ladder'>
       {teams.map((teamObj, index) => {
         const isBreak = rules?.breaks?.includes(index + 1)
-        const zoneLabel = getZoneLabel(divisionName, index + 1)
+        const zoneLabel = getZoneLabel(divisionName, index + 1, rules)
 
         return (
           <div key={teamObj.team}>
@@ -26,10 +27,3 @@ function Ladder({
 }
 
 export default Ladder
-
-function getZoneLabel(division, index) {
-  const rules = rules || {}
-  if (rules.promoted?.includes(index)) return 'Promoted'
-  if (rules.playoffs?.includes(index)) return 'Playoffs'
-  if (rules.relegated?.includes(index)) return 'Relegated'
-}
