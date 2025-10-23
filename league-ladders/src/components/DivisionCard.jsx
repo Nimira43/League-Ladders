@@ -1,9 +1,9 @@
-function TeamItem() {
+function DivisionCard() {
   return (
     <div>
-      TeamItem
+      Division Card
     </div>
   )
 }
 
-export default TeamItem
+export default DivisionCard
