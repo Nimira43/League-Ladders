@@ -1,0 +1,29 @@
+The Plan Going Forward: Ladder Refactor, Part II
+
+1. 🌀 Implement Drag-and-Drop Logic
+Lift divisions into React state (likely in DivisionGrid)
+
+Pass state + setter to Ladder so it can update team order
+
+Use onDragStart, onDragOver, onDrop to handle movement
+
+Ensure teams can move between divisions and reorder within
+
+2. 📦 Persist State 
+Add localStorage or sessionStorage to preserve ladder state across refreshes
+
+Optionally: export/import JSON for saving and loading ladder configurations
+
+3. 🎨 Polish UI & Interactions
+Add hover/active states to TeamItem (e.g. hover:scale-105, active:opacity-80)
+
+Animate drag/drop transitions with Tailwind or Framer Motion
+
+Add visual cues for drop targets (e.g. border-dashed, bg-opacity)
+
+4. 🧪 Testing & Validation
+Ensure zone breaks render correctly after reordering
+
+Validate that team colours and labels persist post-drop
+
+Add dev-only debug panel to inspect current divisions state
