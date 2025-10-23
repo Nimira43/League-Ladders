@@ -14,4 +14,7 @@ function TeamItem({ teamObj }) {
 
 export default TeamItem
 
-function getHex(colour) {}
+function getHex(colour) {
+  const key = colour?.toLowerCase().replace(/ /g, '_')
+  return colourMap[key] || colour || '#999'
+}
