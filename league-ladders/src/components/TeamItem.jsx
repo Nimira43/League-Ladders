@@ -1,6 +1,10 @@
 import { colourMap } from '../data/colourMap'
 
-function TeamItem() {
+function TeamItem({ teamObj }) {
+  const { team, main_colour, support_colour } = teamObj
+  const bg = getHex(main_colour)
+  const text = getHex(support_colour)
+
   return (
     <div>
       Team Item
@@ -9,3 +13,5 @@ function TeamItem() {
 }
 
 export default TeamItem
+
+function getHex(colour) {}
