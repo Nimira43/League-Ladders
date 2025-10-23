@@ -1,3 +1,5 @@
+import { colourMap } from '../data/colourMap'
+
 function TeamItem() {
   return (
     <div>
