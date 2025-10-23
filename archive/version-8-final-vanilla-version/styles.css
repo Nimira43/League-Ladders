@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  background-color: #000;
+  padding: 1rem;
+}
+
+.ladder-container {
+  display: grid;
+  grid-template-areas:
+    "premier championship league-one league-two"
+    "national-league national-north national-south ."
+    "scottish-premiership scottish-championship scottish-league-one scottish-league-two"
+    "highland-league lowland-league . .";
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#premier-league { grid-area: premier; }
+#championship { grid-area: championship; }
+#league-one { grid-area: league-one; }
+#league-two { grid-area: league-two; }
+
+#national-league { grid-area: national-league; }
+#national-north { grid-area: national-north; }
+#national-south { grid-area: national-south; }
+
+#scottish-premiership { grid-area: scottish-premiership; }
+#scottish-championship { grid-area: scottish-championship; }
+#scottish-league-one { grid-area: scottish-league-one; }
+#scottish-league-two { grid-area: scottish-league-two; }
+
+#highland-league { grid-area: highland-league; }
+#lowland-league { grid-area: lowland-league; }
+
+.division {
+  background: #025454;
+  max-width: 300px;
+  padding: 2rem;
+  border-radius: 3px;
+}
+
+.division h2 {
+  color:  #fbff00;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 2px #000;
+  text-align: center;
+  letter-spacing: 2px;;
+}
+
+.ladder {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ladder li {
+  background: var(--grey-1);
+  margin: 0.2rem 0;
+  padding: 0.2rem;
+  cursor: grab;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.zone-line {
+  height: 4px;
+  margin: 0.3rem 0;
+  background: linear-gradient(
+    90deg, 
+    #000, 
+    #fff, 
+    #000
+  );
+  background-size: 200% 100%;
+  animation: pulseGradient 3s linear infinite;
+  border: none;
+}
+
+@keyframes pulseGradient {
+  0% {
+    background-position: 0% 50%;
+    opacity: 0.6;
+  }
+  50% {
+    background-position: 100% 50%;
+    opacity: 1;
+  }
+  100% {
+    background-position: 0% 50%;
+    opacity: 0.6;
+  }
+}
+
+
+
