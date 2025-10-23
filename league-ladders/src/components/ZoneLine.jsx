@@ -1,7 +1,7 @@
-function ZoneLine() {
+function ZoneLine({ label }) {
   return (
-    <div>
-      Zone Line
+    <div className="zone-line flex items-center justify-center text-xs text-white font-bold">
+      {label}
     </div>
   )
 }
