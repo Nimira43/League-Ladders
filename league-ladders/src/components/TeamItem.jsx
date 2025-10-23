@@ -1,4 +1,4 @@
-import { colourMap } from '../data/colourMap'
+import { getHex } from '../lib/utils'
 
 function TeamItem({ teamObj }) {
   const { team, main_colour, support_colour } = teamObj
@@ -21,7 +21,4 @@ function TeamItem({ teamObj }) {
 
 export default TeamItem
 
-function getHex(colour) {
-  const key = colour?.toLowerCase().replace(/ /g, '_')
-  return colourMap[key] || colour || '#999'
-}
+
