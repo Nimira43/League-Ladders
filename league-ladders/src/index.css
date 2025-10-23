@@ -12,3 +12,11 @@
 .logo {
   font-family: 'Fjalla One', sans-serif;
 }
+
+.division {
+  @apply bg-teal-900 p-8 rounded max-w-sm
+}
+
+.division h2 {
+  @apply text-yellow-300 text-center uppercase text-xl shadow
+}
