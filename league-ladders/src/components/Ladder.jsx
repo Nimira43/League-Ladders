@@ -8,7 +8,10 @@ function Ladder({
 }) {
   return (
     <ul className='ladder'>
-      {teams.map((teamObj, index) => {})}
+      {teams.map((teamObj, index) => {
+        const isBreak = rules?.breaks?.includes(index + 1)
+        const zoneLabel = getZoneLabel(divisionName, index + 1)
+      })}
 
     </ul>
   )
