@@ -7,9 +7,10 @@ function Ladder({
   rules,
 }) {
   return (
-    <div>
-      Ladder
-    </div>
+    <ul className='ladder'>
+      {teams.map((teamObj, index) => {})}
+
+    </ul>
   )
 }
 
