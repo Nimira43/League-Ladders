@@ -6,8 +6,13 @@ function DivisionCard({
   rules
 }) {
   return (
-    <div>
-      Division Card
+    <div className='division'>
+      <h2 className='logo'>{divisionName}</h2>
+      <Ladder
+        divisionName={divisionName}
+        teams={teams}
+        rules={rules}
+      />
     </div>
   )
 }
