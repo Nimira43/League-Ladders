@@ -11,6 +11,12 @@ function Ladder({
       {teams.map((teamObj, index) => {
         const isBreak = rules?.breaks?.includes(index + 1)
         const zoneLabel = getZoneLabel(divisionName, index + 1)
+
+        return (
+          <div key={teamObj.team}>
+            <TeamItem teamObj={teamObj} />            
+          </div>
+        )
       })}
 
     </ul>
