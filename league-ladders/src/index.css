@@ -24,3 +24,7 @@
 .ladder li {
   @apply rounded cursor-grab font-bold uppercase mb-1 px-2 py-1
 }
+
+.zone-line {
+  @apply h-1 my-1 bg-gradient-to-r from black via-white to-black animate-pulse
+}
