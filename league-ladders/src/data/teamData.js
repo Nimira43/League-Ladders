@@ -1,4 +1,4 @@
-export let divisionsV2 = {
+export let divisions = {
   'Premier League': [
     { team: 'Arsenal', main_colour: 'red', support_colour: 'white' },
     { team: 'Aston Villa', main_colour: 'claret', support_colour: 'blue' },
@@ -137,7 +137,7 @@ export let divisionsV2 = {
     { team: 'Darlington', main_colour: 'black', support_colour: 'white' },    
     { team: 'Hereford', main_colour: 'white', support_colour: 'black' },
     { team: 'Kidderminster Harriers', main_colour: 'red', support_colour: 'white' },
-    { team: 'King\’s Lynn Town', main_colour: 'blue', support_colour: 'yellow' },
+    { team: "King’s Lynn Town", main_colour: 'blue', support_colour: 'yellow' },
     { team: 'Leamington', main_colour: 'gold', support_colour: 'black' },
     { team: 'Macclesfield', main_colour: 'blue', support_colour: 'white' },
     { team: 'Marine', main_colour: 'white', support_colour: 'black' },
@@ -198,7 +198,7 @@ export let divisionsV2 = {
     { team: 'Dunfermline Athletic', main_colour: 'black', support_colour: 'white' },
     { team: 'Greenock Morton', main_colour: 'blue', support_colour: 'white' },
     { team: 'Partick Thistle', main_colour: 'red', support_colour: 'yellow' },
-    { team: 'Queen\’s Park', main_colour: 'black', support_colour: 'white' },
+    { team: "Queen's Park", main_colour: 'black', support_colour: 'white' },
     { team: 'Raith Rovers', main_colour: 'navy', support_colour: 'white' },
     { team: 'Ross County', main_colour: 'navy', support_colour: 'white' },
     { team: 'St Johnstone', main_colour: 'blue', support_colour: 'white' }
@@ -228,7 +228,7 @@ export let divisionsV2 = {
     { team: 'The Spartans', main_colour: 'red', support_colour: 'white' }
   ],
   'Highland League': [
-    { team: 'Banks o\’ Dee', main_colour: 'red', support_colour: 'white' },
+    { team: "Banks o’ Dee", main_colour: 'red', support_colour: 'white' },
     { team: 'Brechin City', main_colour: 'red', support_colour: 'white' },
     { team: 'Brora Rangers', main_colour: 'maroon', support_colour: 'white' },
     { team: 'Buckie Thistle', main_colour: 'green', support_colour: 'white' },
@@ -250,7 +250,7 @@ export let divisionsV2 = {
   'Lowland League': [
     { team: 'Albion Rovers', main_colour: 'yellow', support_colour: 'red' },
     { team: 'Berwick Rangers', main_colour: 'black', support_colour: 'yellow' },
-    { team: 'Bo\’ness United', main_colour: 'blue', support_colour: 'white' },
+    { team: "Bo’ness United", main_colour: 'blue', support_colour: 'white' },
     { team: 'Broxburn Athletic', main_colour: 'white', support_colour: 'black' },
     { team: 'Caledonian Braves', main_colour: 'red', support_colour: 'black' },
     { team: 'Celtic B', main_colour: 'green', support_colour: 'white' },
