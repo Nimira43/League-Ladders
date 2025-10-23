@@ -20,3 +20,7 @@
 .division h2 {
   @apply text-yellow-300 text-center uppercase text-xl shadow
 }
+
+.ladder li {
+  @apply rounded cursor-grab font-bold uppercase mb-1 px-2 py-1
+}
